@@ -4,9 +4,9 @@
 
 <div align="center">
 
-## Efficient Lifelong Memory for LLM Agents
+## Efficient Lifelong Memory for LLM Agents — Text & Multimodal
 
-<small>Store, compress, and retrieve long-term memories with semantic lossless compression. Works across Claude, Cursor, LM Studio, and more.</small>
+<small>Store, compress, and retrieve long-term memories with semantic lossless compression. Now with multimodal support for text, image, audio & video. Works across Claude, Cursor, LM Studio, and more.</small>
 
 </div>
 
@@ -131,19 +131,25 @@
 
 ## 📑 Table of Contents
 
+**📝 SimpleMem — Text Memory**
 - [🌟 Overview](#-overview)
 - [🎯 Key Contributions](#-key-contributions)
 - [🚀 Performance Highlights](#-performance-highlights)
 - [📦 Installation](#-installation)
-- [🐳 Run with Docker](#-run-with-docker)
 - [⚡ Quick Start](#-quick-start)
-- [🧠 Omni-SimpleMem: Multimodal Memory](#-omni-simplemem-multimodal-memory)
-- [🔄 Cross-Session Memory](#-cross-session-memory)
-- [🔌 MCP Server](#-mcp-server)
+
+**🧠 Omni-SimpleMem — Multimodal Memory**
+- [🌟 Omni Overview](#-omni-simplemem-multimodal-memory)
+
+**🔗 Shared Infrastructure**
+- [🔄 Cross-Session Memory](#-cross-session-memory) *(text memory)*
+- [🔌 MCP Server](#-mcp-server) *(text memory)*
+- [🐳 Docker](#-run-with-docker) *(text memory)*
+
+**📋 Other**
+- [🗺️ Roadmap](#️-roadmap)
 - [📊 Evaluation](#-evaluation)
 - [📝 Citation](#-citation)
-- [📄 License](#-license)
-- [🙏 Acknowledgments](#-acknowledgments)
 
 ---
 
@@ -503,7 +509,13 @@ If you encounter issues while setting up or running SimpleMem for the first time
 
 ---
 
-## 🧠 Omni-SimpleMem: Multimodal Memory
+<div align="center">
+
+# 🧠 Omni-SimpleMem: Multimodal Memory
+
+**NEW** — SimpleMem now handles text, image, audio & video.
+
+</div>
 
 <table>
 <tr>
@@ -517,6 +529,8 @@ If you encounter issues while setting up or running SimpleMem for the first time
 **Omni-SimpleMem** extends SimpleMem to **unified multimodal memory** — supporting text, image, audio, and video experiences with state-of-the-art accuracy across all five LLM backbones tested.
 
 Built on three principles: **Selective Ingestion** (entropy-driven filtering for each modality), **Progressive Retrieval** (hybrid FAISS + BM25 search with pyramid token-budget expansion), and **Knowledge Graph Augmentation** (multi-hop cross-modal reasoning).
+
+### ⚡ Quick Start
 
 ```bash
 cd OmniSimpleMem
@@ -536,7 +550,7 @@ result = orchestrator.query("What does the user enjoy?", top_k=5)
 
 ---
 
-## 🔄 Cross-Session Memory
+## 🔄 Cross-Session Memory *(text memory)*
 
 **SimpleMem-Cross** extends SimpleMem with persistent cross-conversation memory capabilities. Agents can recall context, decisions, and observations from previous sessions — enabling continuity across conversations without manual context re-injection.
 
@@ -626,7 +640,7 @@ Session Manager  Context Injector  Consolidation
 
 ---
 
-## 🔌 MCP Server
+## 🔌 MCP Server *(text memory)*
 
 SimpleMem is available as a **cloud-hosted memory service** via the Model Context Protocol (MCP), enabling seamless integration with AI assistants like Claude Desktop, Cursor, and other MCP-compatible clients.
 
@@ -657,6 +671,26 @@ SimpleMem is available as a **cloud-hosted memory service** via the Model Contex
 ```
 
 > 📖 For detailed setup instructions and self-hosting guide, see [MCP Documentation](MCP/README.md)
+
+---
+
+## 🗺️ Roadmap
+
+**Omni-SimpleMem infrastructure** — bringing multimodal memory to all shared components:
+
+- 🔲 Omni cross-session memory (text + image + audio + video persistence)
+- 🔲 Omni MCP server (multimodal memory via MCP protocol)
+- 🔲 Omni Docker support
+- 🔲 Omni PyPI package (`pip install omni-simplemem`)
+- 🔲 Omni Claude Skills integration
+
+**Core improvements:**
+
+- 🔲 Streaming ingestion for real-time memory updates
+- 🔲 Memory sharing across multiple agents
+- 🔲 Benchmark expansion (more multimodal benchmarks)
+
+Contributions welcome! See [CONTRIBUTING.md](CONTRIBUTING.md) or open an [issue](https://github.com/aiming-lab/SimpleMem/issues).
 
 ---
 
