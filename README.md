@@ -779,7 +779,7 @@ If you use SimpleMem in your research, please cite:
 
 ```bibtex
 @article{omnisimplemem2026,
-  title   = {{Omni-SimpleMem}: Autoresearch-Guided Discovery of Lifelong Multimodal Agent Memory},
+  title   = {Omni-SimpleMem: Autoresearch-Guided Discovery of Lifelong Multimodal Agent Memory},
   author  = {Liu, Jiaqi and Ling, Zipeng and Qiu, Shi and Liu, Yanqing and Han, Siwei and Xia, Peng and Tu, Haoqin and Zheng, Zeyu and Xie, Cihang and Fleming, Charles and Ding, Mingyu and Yao, Huaxiu},
   journal = {arXiv preprint arXiv:2604.01007},
   year    = {2026},
