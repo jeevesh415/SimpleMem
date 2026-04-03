@@ -721,17 +721,17 @@ SimpleMem is available as a **cloud-hosted memory service** via the Model Contex
 
 **Omni-SimpleMem infrastructure** — bringing multimodal memory to all shared components:
 
-- 🔲 Omni cross-session memory (text + image + audio + video persistence)
-- 🔲 Omni MCP server (multimodal memory via MCP protocol)
-- 🔲 Omni Docker support
-- 🔲 Omni PyPI package (`pip install omni-simplemem`)
-- 🔲 Omni Claude Skills integration
+- [ ] Omni cross-session memory (text + image + audio + video persistence)
+- [ ] Omni MCP server (multimodal memory via MCP protocol)
+- [ ] Omni Docker support
+- [ ] Omni PyPI package (`pip install omni-simplemem`)
+- [ ] Omni Claude Skills integration
 
 **Core improvements:**
 
-- 🔲 Streaming ingestion for real-time memory updates
-- 🔲 Memory sharing across multiple agents
-- 🔲 Benchmark expansion (more multimodal benchmarks)
+- [ ] Streaming ingestion for real-time memory updates
+- [ ] Memory sharing across multiple agents
+- [ ] Benchmark expansion (more multimodal benchmarks)
 
 Contributions welcome! Open an [issue](https://github.com/aiming-lab/SimpleMem/issues) to discuss.
 

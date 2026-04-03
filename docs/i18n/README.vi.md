@@ -243,12 +243,12 @@ print(answer)
 
 ## 🗺️ Lộ Trình
 
-- 🔲 Omni cross-session memory
-- 🔲 Omni MCP server
-- 🔲 Omni Docker support
-- 🔲 Omni PyPI package
-- 🔲 Streaming ingestion
-- 🔲 Multi-agent memory sharing
+- [ ] Omni cross-session memory
+- [ ] Omni MCP server
+- [ ] Omni Docker support
+- [ ] Omni PyPI package
+- [ ] Streaming ingestion
+- [ ] Multi-agent memory sharing
 
 ---
 

@@ -495,12 +495,12 @@ SimpleMem は**クラウドホスト型メモリサービス**として、Model 
 
 ## 🗺️ ロードマップ
 
-- 🔲 Omni cross-session memory
-- 🔲 Omni MCP server
-- 🔲 Omni Docker support
-- 🔲 Omni PyPI package
-- 🔲 Streaming ingestion
-- 🔲 Multi-agent memory sharing
+- [ ] Omni cross-session memory
+- [ ] Omni MCP server
+- [ ] Omni Docker support
+- [ ] Omni PyPI package
+- [ ] Streaming ingestion
+- [ ] Multi-agent memory sharing
 
 ---
 

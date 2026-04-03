@@ -495,12 +495,12 @@ SimpleMem은 Model Context Protocol (MCP)을 통해 **클라우드 호스팅 메
 
 ## 🗺️ 로드맵
 
-- 🔲 Omni cross-session memory
-- 🔲 Omni MCP server
-- 🔲 Omni Docker support
-- 🔲 Omni PyPI package
-- 🔲 Streaming ingestion
-- 🔲 Multi-agent memory sharing
+- [ ] Omni cross-session memory
+- [ ] Omni MCP server
+- [ ] Omni Docker support
+- [ ] Omni PyPI package
+- [ ] Streaming ingestion
+- [ ] Multi-agent memory sharing
 
 ---
 

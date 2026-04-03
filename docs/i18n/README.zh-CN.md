@@ -495,12 +495,12 @@ SimpleMem 作为**云端记忆服务**，通过模型上下文协议（MCP）提
 
 ## 🗺️ 路线图
 
-- 🔲 Omni cross-session memory
-- 🔲 Omni MCP server
-- 🔲 Omni Docker support
-- 🔲 Omni PyPI package
-- 🔲 Streaming ingestion
-- 🔲 Multi-agent memory sharing
+- [ ] Omni cross-session memory
+- [ ] Omni MCP server
+- [ ] Omni Docker support
+- [ ] Omni PyPI package
+- [ ] Streaming ingestion
+- [ ] Multi-agent memory sharing
 
 ---
 
