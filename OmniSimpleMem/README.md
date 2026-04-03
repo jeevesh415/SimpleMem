@@ -207,7 +207,7 @@ Input (Text / Image / Audio / Video)
 
 </details>
 
-<details>
+<details open>
 <summary><b>Mem-Gallery — Overall F1</b></summary>
 
 | Method | GPT-4o | GPT-4o-mini | GPT-4.1-nano | GPT-5.1 | GPT-5-nano |
