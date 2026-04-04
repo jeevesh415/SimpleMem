@@ -118,7 +118,7 @@
 
 ## 🔥 News
 
-- **[04/02/2026]** 🧠 **Omni-SimpleMem — Multimodal Memory is Here!** SimpleMem now supports **text, image, audio & video** memory. Achieving **+411% on LoCoMo** and **+214% on Mem-Gallery** over previous baselines, Omni-SimpleMem brings state-of-the-art multimodal lifelong memory to your agents. [View Omni-SimpleMem →](OmniSimpleMem/)
+- **[04/02/2026]** 🧠 **Omni-SimpleMem — Multimodal Memory is Here!** SimpleMem now supports **text, image, audio & video** memory. Achieving **new SOTA on LoCoMo (F1=0.613, +47%)** and **Mem-Gallery (F1=0.810, +51%)** over previous best, Omni-SimpleMem brings state-of-the-art multimodal lifelong memory to your agents. [View Omni-SimpleMem →](OmniSimpleMem/)
 - **[02/09/2026]** 🚀 **Cross-Session Memory is Here — Outperforming Claude-Mem by 64%!** SimpleMem now supports **persistent memory across conversations**. On the LoCoMo benchmark, SimpleMem achieves a **64% performance boost** over Claude-Mem. Your agents can now recall context, decisions, and learnings from previous sessions automatically. [View Cross-Session Documentation →](cross/README.md)
 - **[01/20/2026]** **SimpleMem is now available on PyPI!** 📦 Install directly via `pip install simplemem`. [View Package Usage Guide →](docs/PACKAGE_USAGE.md)
 - **[01/19/2026]** **Added Local Memory Storage for SimpleMem Skill!** 💾 SimpleMem Skill now supports local memory storage within Claude Skills.
@@ -370,9 +370,9 @@ Infers search intent to dynamically determine retrieval scope and construct prec
 
 <table>
 <tr>
-<td align="center" width="140">📈 <b>+411%</b><br><sub>LoCoMo F1</sub></td>
-<td align="center" width="140">📈 <b>+214%</b><br><sub>Mem-Gallery F1</sub></td>
-<td align="center" width="140">⚡ <b>5.81 q/s</b><br><sub>3.5x faster</sub></td>
+<td align="center" width="170">🏆 <b>0.613 F1</b><br><sub>LoCoMo (+47% over prev. SOTA)</sub></td>
+<td align="center" width="170">🏆 <b>0.810 F1</b><br><sub>Mem-Gallery (+51% over prev. SOTA)</sub></td>
+<td align="center" width="140">⚡ <b>3.5x faster</b><br><sub>retrieval throughput</sub></td>
 <td align="center" width="140">🧠 <b>4 modalities</b><br><sub>Text · Image · Audio · Video</sub></td>
 </tr>
 </table>
